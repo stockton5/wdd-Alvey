@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+.nav{
+    background-color:  #774C60;
+    overflow: hidden;
+    width:100%;
+    font-family: "Cormorant Unicase";
+}
+
+.nav a{
+    float:left;
+    color:#C5AFA0 ;
+    text-align: center;
+    padding-bottom:20px;
+    padding-top:20px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 33.33%; 
+}
+.nav a:hover{
+        background-color:white;
+
+}
+body{
+    background-color:white;
+    font-family:"Cormorant SC";
+}
+.hero{
+    object-fit:contain;
+}
+.content{
+    width: 100%;
+    height: 200px;
+    font-size:35px;
+    background-color:#1C6938;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align:center;
+}     
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}       
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+.button-text{
+    position: absolute;
+}
+.button-container1{
+    margin:auto;
+    position:relative;
+    text-align:center;
+    background-color:white;
+}
+.button-container2{
+    margin:auto;
+    position:relative;
+    text-align:center;
+    background-color:white;
+}
+
+.button-container1:hover img{
+    opacity:.3;
+}
+.button-container2:hover img{
+    opacity:.3;
+
+}
+.button-text2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:30px;
+}
+.button-text1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size:30px
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #774C60;
+    overflow:hidden;
+}
+footer a{
+    float:right;
+    color:#C5AFA0 ;
+    text-align: center;
+    padding:20px;
+    padding-left:40px;
+    text-decoration: none;
+    font-size: 20px;
+}
